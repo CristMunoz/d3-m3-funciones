@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Ejercicios 1-2</a></li>
+            <li><a href="pintar.html">Ejercicio 3</a></li>
+            <li><a href="boxes.html">Ejercicio 4</a></li>
+        </ul>
+    </nav>
+
+    <!-- Ejercicios 1 y 2 -->
+    <div class="container">
+        <h2>Transformar una Function declaration => Function expression</h2>
+        <p>a = 3 | b = 4| c = 5</p>
+        <p>a + b + c</p>
+        <input id="adicion" onclick="console.log(sumaExp(3, 4, 5))" type="button" value="Calcular">
+
+        <h2>Transformar una function => Arrow function</h2>
+        <p>a = 6 | b = 7</p>
+        <p>a + b</p>
+        <input id="adicion" onclick="console.log(sumaArrow(6, 7))" type="button" value="Calcular">
+    </div>
+
+    <script src="assets/js/funcion.js"></script>
+    <script src="assets/js/arrow.js"></script>
+</body>
+</html>
